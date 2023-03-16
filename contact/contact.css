@@ -1,0 +1,88 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f0f4f5;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+.headernav{
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+.logoimg{
+    position: relative;
+    right: 10vw;
+}
+.headernav ul{
+    gap: 4vw;
+    display: flex;
+    list-style: none;
+}
+.headernav a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+/* MAIN */
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+ 
+    background-color: #f0f4f5;
+    height: 50vh;
+    display: flex;
+    box-shadow: 0 3px 15px 4px gray;
+    flex-direction: column;
+    align-self: center;
+    justify-content: start;
+    width: 20%;
+   
+    padding: 2vh 2vw 2vh;
+ 
+    border-radius: 3vh;
+}
+.txtarea{
+    height: 13vh;
+}
+.forminput{
+    border: none;
+    padding: 1vh;
+    border-radius: 15px;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 1vh;
+    background-color: #22bc7e;
+    border: none;
+    color: white;
+    font-weight: 800;
+    padding:1.2vh 1vw;
+    border-radius: 8px;
+    cursor: pointer;
+    bottom: 28vh;
+    width: 16vw;
+}
+.submit:hover{
+    background-color: #fff;
+    color: #22bc7e;
+    border: 1px solid #22bc7e;
+}
+
+/* MAIN */
